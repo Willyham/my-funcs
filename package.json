@@ -1,0 +1,29 @@
+{
+  "name": "my-funcs",
+  "description": "Get a list of all the named functions you defined in your prokect",
+  "version": "1.0.0",
+  "author": "Will Demaine <willdemaine@gmail.com>",
+  "keywords": [],
+  "licenses": [],
+  "main": "index.js",
+  "dependencies": {
+    "cpuprofilify": "^0.3.1",
+    "deep-ast": "0.0.1",
+    "npm": "^2.7.0",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "lint-trap": "^0.4.10",
+    "istanbul": "^0.3.5",
+    "opn": "^1.0.1",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "npm run lint -s && npm run cover -s",
+    "fast-test": "npm run lint && tape test/index.js | tap-spec",
+    "lint": "lint-trap --line-length=120",
+    "cover": "istanbul cover --report cobertura --print detail tape -- test/index.js",
+    "view-cover": "istanbul report html && opn ./coverage/index.html"
+  }
+}
