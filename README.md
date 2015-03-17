@@ -1,6 +1,4 @@
-# my-funcs
-
-[![Travis branch](https://img.shields.io/travis/Willyham/my-funcs.svg)]() [![Coverage Status](https://coveralls.io/repos/Willyham/my-funcs/badge.svg)](https://coveralls.io/r/Willyham/my-funcs)
+# my-funcs [![Travis branch](https://img.shields.io/travis/Willyham/my-funcs.svg)]() [![Coverage Status](https://coveralls.io/repos/Willyham/my-funcs/badge.svg)](https://coveralls.io/r/Willyham/my-funcs)
 
 Get a list of all of the named functions you defined in your project
 
