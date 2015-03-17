@@ -10,7 +10,8 @@
     "cpuprofilify": "^0.3.1",
     "deep-ast": "0.0.1",
     "npm": "^2.7.0",
-    "traverse": "^0.6.6"
+    "traverse": "^0.6.6",
+    "esutils": "git+ssh://git@github.com:Willyham/esutils.git"
   },
   "devDependencies": {
     "lint-trap": "^0.4.10",
