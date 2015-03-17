@@ -6,7 +6,9 @@ NOTE: This depends on deep-ast which uses synchronous I/O and should not be used
 
 ## API
 
+```ocaml
 myFuncs : (filename: String) => (() => Array<String>|Error)
+```
 
 my-funcs exposes one function which takes a filename. the file is loaded and then a [deep-ast](https://github.com/Willyham/deep-ast)
 is generated based on the file. The AST is then traversed and each named function is found and returned.
